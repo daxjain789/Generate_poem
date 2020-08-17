@@ -9,7 +9,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 print(tf.__version__)
 
-path = r"G:\Coursera Course\Tensorflow-practice\3. NLP in tensorflow\dataset\irish-lyrics.txt"
+path = "irish-lyrics.txt"
 
 
 with open(path, 'r') as f:
